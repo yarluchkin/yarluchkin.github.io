@@ -35,6 +35,8 @@ Playerokでは、1,200以上のゲームやアプリのアイテム、アカウ�
 
 ![出品者向けLP：収益シミュレーター]({{ '/assets/img/playerok/seller-calc.webp' | relative_url }})
 
+![出品者向けLP：取引の保護と始め方]({{ '/assets/img/playerok/seller-steps.webp' | relative_url }})
+
 ![ゲームページ：即時購入ブロックのあるPUBG Mobile UC]({{ '/assets/img/playerok/category.webp' | relative_url }})
 
 ## GTA VI 予約イベント

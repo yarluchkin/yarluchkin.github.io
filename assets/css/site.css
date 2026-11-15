@@ -6,8 +6,8 @@
   --ink-2: #5b5e5c;
   --line: #cfd2cb;
   --field: #878a86;
-  --signal: #ec5b10;
-  --signal-text: #ad4300;
+  --signal: #ff6a13;
+  --signal-text: var(--ink);
   --img-edge: rgb(0 0 0 / .1);
   --gutter: clamp(16px, 2.6vw, 40px);
   --sans: "Geologica", "IBM Plex Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -23,7 +23,7 @@
   --line: #2e3133;
   --field: #66696a;
   --signal: #ff6d1f;
-  --signal-text: #ff8a45;
+  --signal-text: var(--ink);
   --img-edge: rgb(255 255 255 / .1);
   color-scheme: dark;
 }
@@ -36,7 +36,7 @@
     --line: #2e3133;
     --field: #66696a;
     --signal: #ff6d1f;
-    --signal-text: #ff8a45;
+    --signal-text: var(--ink);
     --img-edge: rgb(255 255 255 / .1);
     color-scheme: dark;
   }
@@ -327,7 +327,8 @@ html:lang(ja) .stat__value { font-size: clamp(1.625rem, 2.8vw, 2.75rem); letter-
   .more:hover span { translate: .3em 0; }
   .row:hover .row__no, .row:hover .row__name, .line:hover .line__type, .line:hover .line__title { translate: .5rem 0; }
   .row:hover .row__no { color: var(--signal-text); }
-  .end__mail:hover, .back:hover { color: var(--signal-text); }
+  .back:hover { color: var(--signal-text); }
+  .end__mail:hover { text-decoration: underline 2px var(--signal); text-underline-offset: .14em; }
   .next:hover .next__arrow { translate: .3em 0; color: var(--signal); }
   .lang a.lang__item:hover { background: var(--plate); }
   .hud__records:hover, .btn:not(.btn--main):hover { background: var(--plate); border-color: var(--ink-2); }

@@ -42,6 +42,8 @@ Playerok sells items, accounts, currency and subscriptions for more than 1,200 g
 
 ![Seller landing: earnings calculator]({{ '/assets/img/playerok/seller-calc.webp' | relative_url }})
 
+![Seller landing: how each deal is protected and how to start]({{ '/assets/img/playerok/seller-steps.webp' | relative_url }})
+
 ![Game page: PUBG Mobile UC with an instant purchase block]({{ '/assets/img/playerok/category.webp' | relative_url }})
 
 ## GTA VI pre-order event
