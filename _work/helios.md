@@ -8,7 +8,7 @@ work: "Desktop widget for smart lighting, dark and light themes"
 period: "2025"
 scale: "Test assignment"
 role: "Research, UX and UI"
-lede: "A test assignment for Flipper Devices: a compact desktop app that turns smart lamps on and off, sets their mood and runs them on a schedule, without taking over the screen."
+lede: "A test assignment for Flipper Devices: a compact desktop app that turns smart lamps on and off, sets their mood and runs them on a schedule."
 cover: "/assets/img/helios/screens.webp"
 cover_alt: "HELIOS screens in the dark theme: lamp control, devices, modes, schedule and settings"
 facts:
@@ -22,7 +22,7 @@ outcomes:
 
 ## Context
 
-The app lives in the corner of the desktop, next to the system tray. It has to be quick to reach, readable at a glance and quiet the rest of the time.
+The app lives in the corner of the desktop, next to the system tray. It has to open quickly, show the state of the lamps clearly and stay out of the way.
 
 ## What I did
 

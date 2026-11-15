@@ -153,12 +153,12 @@ layout: default
       <a class="line" href="{{ item.link }}" rel="noopener">
         {% if lang == "ja" %}
         <span class="line__type">{{ item.type_ja | default: item.type }}</span>
-        <span class="line__title">{{ item.title_ja | default: item.title }} <span class="line__ext" aria-hidden="true">↗</span></span>
+        <span class="line__title">{{ item.title_ja | default: item.title }}</span>
         <span class="line__detail">{{ item.detail_ja | default: item.detail }}</span>
         <span class="line__date">{{ item.date_ja | default: item.date }}</span>
         {% else %}
         <span class="line__type">{{ item.type }}</span>
-        <span class="line__title">{{ item.title }} <span class="line__ext" aria-hidden="true">↗</span></span>
+        <span class="line__title">{{ item.title }}</span>
         <span class="line__detail">{{ item.detail }}</span>
         <span class="line__date">{{ item.date }}</span>
         {% endif %}

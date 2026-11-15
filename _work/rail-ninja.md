@@ -42,7 +42,3 @@ Travellers often book trains in a country and a language that aren’t their own
 ![Route page: Lisbon to Albufeira]({{ '/assets/img/rail-ninja/route.webp' | relative_url }}) ![Route page: trains on the route, travel times and popular routes]({{ '/assets/img/rail-ninja/route-detail.webp' | relative_url }})
 
 ![Social posts and banners in one visual language]({{ '/assets/img/rail-ninja/posts.webp' | relative_url }})
-
-![Post: the Jacobite Express in Scotland]({{ '/assets/img/rail-ninja/post-jacobite.webp' | relative_url }}) ![Post: arriving at Milano Centrale]({{ '/assets/img/rail-ninja/post-milano.webp' | relative_url }})
-
-![Post: tourist information with times and the best seats for the view]({{ '/assets/img/rail-ninja/post-tourist-info.webp' | relative_url }}) ![Post: Spanish phrases for travellers]({{ '/assets/img/rail-ninja/post-phrases.webp' | relative_url }})

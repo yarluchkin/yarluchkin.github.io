@@ -30,10 +30,10 @@ Knowledge about TON is spread across chats and docs, and newcomers learn about w
 
 ## What I did
 
-- **Format.** Chose a Telegram Mini App so learning happens where people already are.
+- **Format.** Chose a Telegram Mini App, so there is nothing extra to install.
 - **Content structure.** Broke smart contracts, wallets and jettons into short lessons with quizzes.
 - **Motivation.** Designed rewards with TON Society badges for finished courses.
-- **UI.** Based the interface on Telegram Wallet, so the mini app feels like part of Telegram rather than a website inside it.
+- **UI.** Based the interface on Telegram Wallet, so the mini app looks like part of Telegram.
 
 ## How it works
 

@@ -40,7 +40,7 @@ A hotel search has to show a lot at once: price, location, rating, room types an
 - **Rooms.** Room options side by side: beds, size, view and cancellation rules.
 - **Checkout.** Guest details, payment and a clear price summary on one page.
 - **Inside Rail Ninja.** Built hotels into the train journey, so a traveller can book a stay right after buying a ticket.
-- **Ownership.** I had no team under me and took responsibility for every design decision.
+- **Ownership.** I was the only designer, so every design decision was mine.
 
 ![Example workflow: two ways into a hotel booking, simplified]({{ '/assets/img/travel-ninja/flow.webp' | relative_url }})
 

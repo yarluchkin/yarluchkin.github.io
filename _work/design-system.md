@@ -33,22 +33,22 @@ The group runs several travel products for travellers from all over the world: t
 
 There was no shared base at all. Every mockup was drawn from scratch, and development was even slower, because the same date picker was built again for every product. Designers couldn’t step into each other’s projects, since there was nothing common to learn. Designers and developers spoke different languages, and every review turned into a debate about colours and spacing.
 
-## Why a design system pays off when you have many products
+## Why it pays off with many products
 
-- **Each decision is made once.** A date picker is designed, approved and built one time, then reused on six platforms instead of being rebuilt six times.
-- **Brands stay different where it matters.** Tokens carry each brand’s colours and type, so products keep their own look on top of the same components.
-- **Reviews are about the product, not the pixels.** When everyone has signed off on a component, there is no room to argue about the shade of a button again, and the conversation moves to what the feature should do.
-- **People can move between teams.** A designer who knows the system can open any product file and start working the same day.
+- **Reuse.** A date picker is designed, approved and built once, then used on all six platforms.
+- **Separate brands.** Each brand has its own colour and type tokens, so the products look different while sharing the same components.
+- **Shorter reviews.** Approved components aren’t discussed again, so reviews are about what the feature should do.
+- **Moving between teams.** A designer who knows the system can open any product’s file and start working the same day.
 
 ## What I did
 
 - **Made the case.** Took the idea to the design lead, then defended it in front of the managers and the founder.
 - **One system for all products.** Built tokens for colour, type, spacing and radius, with a theme for each brand, so a component changes its look by switching a theme rather than being redrawn.
 - **Components with every state.** Buttons, inputs, calendars, the search bar, the traveller selector and 2,000+ components and variants in total, each with its states: default, hover, focus, filled, error and disabled.
-- **Documentation in Confluence.** Wrote detailed usage rules for every component, so developers and designers had one source of truth.
+- **Documentation in Confluence.** Wrote detailed usage rules for every component, so developers and designers followed the same rules.
 - **Presented every release.** Ran component presentations for analysts, managers, developers and designers before a component went into production.
-- **Files and handoff.** Rebuilt how design files are structured, stored and handed off, after years of growing chaos.
-- **Kept it alive.** Designers came to me with new cases, and I extended the components as they appeared.
+- **Files and handoff.** Rebuilt how design files are structured, stored and handed off to developers.
+- **Support.** Designers came to me with new cases, and I extended the components for them.
 
 ![Theme tokens: one palette structure with accents for each brand]({{ '/assets/img/design-system/colors.webp' | relative_url }})
 

@@ -37,7 +37,3 @@ outcomes:
 ![路線ページ：リスボン〜アルブフェイラ]({{ '/assets/img/rail-ninja/route.webp' | relative_url }}) ![路線ページ：列車、所要時間、人気路線]({{ '/assets/img/rail-ninja/route-detail.webp' | relative_url }})
 
 ![統一したビジュアルの投稿とバナー]({{ '/assets/img/rail-ninja/posts.webp' | relative_url }})
-
-![投稿：スコットランドのジャコバイト号]({{ '/assets/img/rail-ninja/post-jacobite.webp' | relative_url }}) ![投稿：ミラノ中央駅に到着]({{ '/assets/img/rail-ninja/post-milano.webp' | relative_url }})
-
-![投稿：時刻と景色のよい座席がわかる観光案内]({{ '/assets/img/rail-ninja/post-tourist-info.webp' | relative_url }}) ![投稿：旅行者向けのスペイン語フレーズ]({{ '/assets/img/rail-ninja/post-phrases.webp' | relative_url }})

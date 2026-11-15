@@ -29,12 +29,12 @@ Playerok sells items, accounts, currency and subscriptions for more than 1,200 g
 
 ## What I did
 
-- **Home page.** My work goes straight onto the home page of the service, so every change is seen by millions of people.
+- **Home page.** I design the home page of the service, which millions of people open.
 - **Game pages.** Category pages for games and apps, from the purchase block at the top to the full list of offers.
 - **Events and prize draws.** Pages and campaigns around game releases. The GTA VI pre-order event is mine: the home page takeover, the game page and the prize draw with daily tasks. I briefed the graphic designers who drew its illustrations.
 - **Seller landing.** The page that turns buyers into sellers: what you can sell across 1,200+ games and apps, how much you earn after the commission, how each deal is protected and how to start.
-- **Product and graphics together.** I combine product decisions with strong visuals, so pages work and also make an impression.
-- **Knowing the audience.** I know games well and use that knowledge to shape decisions, together with the product manager, developers and other designers.
+- **Graphics.** On event and promo pages the visuals matter as much as the structure, so I work on both.
+- **Team.** I work with the product manager, developers and other designers. Knowing games well helps in these discussions.
 
 ![Seller landing: the main offer]({{ '/assets/img/playerok/seller.webp' | relative_url }})
 

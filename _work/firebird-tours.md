@@ -19,7 +19,7 @@ facts:
   Platforms: "Website, iOS and Android app, trip builder, partner portal, admin"
 outcomes:
   - "The product went through several rounds of modernisation while I was there. Many of my patterns and pages are still live."
-  - "The travel specialists got a workspace built around their real routine, with everything they need on one screen."
+  - "The travel specialists got a workspace that fits how they work, with everything they need on one screen."
 ---
 
 ## Context
@@ -29,7 +29,7 @@ One product serves four kinds of users at once. Travellers browse more than 500 
 ## What I did
 
 - **Flows and pages.** Reworked the main journeys and pages for every type of user, from the tour catalogue to the traveller’s trip area.
-- **Itinerary builder.** The hardest part of the product: a traveller puts together a dream trip with tickets, hotels and places in one plan.
+- **Itinerary builder.** The hardest part of the product: a traveller puts together a trip with tickets, hotels and places in one plan.
 - **AI assistant.** Designed how a traveller talks to an AI assistant that collects their wishes and builds the trip plan from them.
 - **Destination landings.** Pages for each destination that let a visitor choose how to travel: work with an expert, pick a popular trip, build the trip themselves or describe it to the AI. I came up with the layout and its states.
 - **Event landings.** Pages for big events, such as a landing for the Paris 2024 Olympics with the schedule of games, the regions and ready trips.
@@ -39,7 +39,7 @@ One product serves four kinds of users at once. Travellers browse more than 500 
 
 ## What research changed
 
-The specialists’ interface was overloaded and dated, so I turned it into a minimal one and took it to them to check. It turned out they needed to see everything in one place instead of digging through dropdowns. I rebuilt it around how they actually work.
+The specialists’ interface was overloaded and dated, so I turned it into a minimal one and took it to them to check. It turned out they needed to see everything in one place instead of digging through dropdowns. I rebuilt it so everything is on one screen.
 
 ![Example workflow: how the specialist workspace changed, simplified]({{ '/assets/img/firebird/workspace.webp' | relative_url }})
 
