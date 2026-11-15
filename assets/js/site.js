@@ -420,12 +420,13 @@
       },
     };
     canvas.setAttribute('aria-label', say('aria'));
+    // Fetch the game right away, but start it once the fonts are in,
+    // so the text doesn't reflow and the play zone doesn't jump after the first frames
+    const fontsIn = document.fonts ? Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 900))]) : Promise.resolve();
     const script = document.createElement('script');
     script.src = `${stage.dataset.base}hero-tower.js`;
-    script.onload = () => window.HeroTower && window.HeroTower(kit);
-    // Start once the fonts are in, so the text doesn't reflow and the play zone doesn't jump after the first frames
-    const fontsIn = document.fonts ? Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 1500))]) : Promise.resolve();
-    fontsIn.then(() => document.head.append(script));
+    script.onload = () => fontsIn.then(() => window.HeroTower && window.HeroTower(kit));
+    document.head.append(script);
   }
 
   /* Image preview that follows the cursor over index rows */
@@ -471,17 +472,6 @@
   } else {
     reveals.forEach((el) => el.classList.add('is-in'));
   }
-
-  /* Swipe counter for the image carousels on phones */
-  $$('[data-slides]').forEach((track) => {
-    const now = $('[data-slide-now]', track.parentElement);
-    if (!now) return;
-    track.addEventListener('scroll', () => {
-      const first = track.firstElementChild;
-      const step = first ? first.getBoundingClientRect().width + 8 : track.clientWidth;
-      now.textContent = Math.min(track.children.length, Math.round(track.scrollLeft / step) + 1);
-    }, { passive: true });
-  });
 
   /* Case study images: captions from alt text, two images in a paragraph sit side by side */
   $$('.cs__body > p').forEach((p) => {

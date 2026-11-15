@@ -30,4 +30,4 @@ outcomes:
 
 ![ライトテーマの同じ6画面]({{ '/assets/img/helios/light.webp' | relative_url }})
 
-![Windowsのデスクトップ上、タスクバーの上に置いたウィジェット]({{ '/assets/img/helios/desktop.webp' | relative_url }})
+![Windowsのデスクトップの隅、システムトレイの横に置いたウィジェット]({{ '/assets/img/helios/desktop.webp' | relative_url }})

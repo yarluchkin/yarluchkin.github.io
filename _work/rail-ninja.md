@@ -10,10 +10,8 @@ scale: "1M+ tickets in 2023"
 role: "Product designer"
 lede: "Rail Ninja sells train tickets in 50 countries from one site and one app. The product had its own design lead, and my part was search, results, seat choice and destination pages, the components behind them, the landing sites that bring travellers from search, and bringing Rail Ninja onto the shared design system."
 cover: "/assets/img/rail-ninja/cover.webp"
+preview: "/assets/img/rail-ninja/preview.webp"
 cover_alt: "Rail Ninja home page and mobile search"
-thumbs:
-  - "/assets/img/rail-ninja/results.webp"
-  - "/assets/img/rail-ninja/route.webp"
 facts:
   Company: "Rail Ninja (Firebird Tours group)"
   Period: "Oct 2023 – Feb 2026"

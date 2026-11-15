@@ -10,10 +10,8 @@ scale: "MVP in a month"
 role: "Lead and only designer"
 lede: "Rail Ninja partnered with Expedia, and Expedia had to certify the booking product before it could go live. I designed Travel Ninja from scratch as the only designer on it. The first version was ready in a month and passed Expedia’s review without issues."
 cover: "/assets/img/travel-ninja/cover.webp"
+preview: "/assets/img/travel-ninja/preview.webp"
 cover_alt: "Travel Ninja home page and search results"
-thumbs:
-  - "/assets/img/travel-ninja/search.webp"
-  - "/assets/img/travel-ninja/hotel.webp"
 facts:
   Company: "Rail Ninja (Firebird Tours group)"
   Period: "2024"

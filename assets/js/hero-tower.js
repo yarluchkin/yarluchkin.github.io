@@ -267,16 +267,47 @@ window.HeroTower = (kit) => {
     ctx.stroke();
   };
 
+  // The card body with its soft shadow, drawn once per size and theme and then reused.
+  // A live shadowBlur on every card in every frame is what made the game stutter.
+  const bodies = new Map();
+  const body = (lift) => {
+    const key = `${lift}|${bw}|${bh}|${C.card}|${C.shadow}`;
+    let s = bodies.get(key);
+    if (s) return s;
+    if (bodies.size > 24) bodies.clear();
+    const k = Math.min(2, devicePixelRatio || 1);
+    const pad = Math.ceil(lift * 1.5 + 2);
+    const w = bw + pad * 2;
+    const h = bh + pad * 2;
+    const img = document.createElement('canvas');
+    img.width = Math.ceil(w * k);
+    img.height = Math.ceil(h * k);
+    const g = img.getContext('2d');
+    g.shadowColor = C.shadow;
+    g.shadowBlur = lift * k;
+    g.shadowOffsetY = lift * 0.4 * k;
+    g.scale(k, k);
+    g.beginPath();
+    g.roundRect(pad, pad, bw, bh, 8);
+    g.fillStyle = C.card;
+    g.fill();
+    s = { img, pad, w: img.width / k, h: img.height / k };
+    bodies.set(key, s);
+    return s;
+  };
+
   // One screen of the flow, centred on (0, 0)
   const card = (b, opts) => {
     const x = -bw / 2;
     const y = -bh / 2;
-    ctx.save();
-    if (opts.lift) { ctx.shadowColor = C.shadow; ctx.shadowBlur = opts.lift; ctx.shadowOffsetY = opts.lift * 0.4; }
-    rr(x, y, bw, bh, 8);
-    ctx.fillStyle = C.card;
-    ctx.fill();
-    ctx.restore();
+    if (opts.lift) {
+      const s = body(opts.lift);
+      ctx.drawImage(s.img, x - s.pad, y - s.pad, s.w, s.h);
+    } else {
+      rr(x, y, bw, bh, 8);
+      ctx.fillStyle = C.card;
+      ctx.fill();
+    }
     ctx.strokeStyle = opts.danger ? C.signal : C.edge;
     ctx.lineWidth = 1;
     rr(x + 0.5, y + 0.5, bw - 1, bh - 1, 7.5);

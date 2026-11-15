@@ -10,10 +10,8 @@ scale: "2,000+ components"
 role: "Initiator and owner of the design system"
 lede: "When I joined the Firebird Tours group, there wasn’t even a UI kit. I proposed a design system, defended it in front of the managers and the founder, and built it so three products, each with a website and an app, could run on one set of components."
 cover: "/assets/img/design-system/cover.webp"
+preview: "/assets/img/design-system/preview.webp"
 cover_alt: "Design system components: date pickers, inputs, colour tokens and type styles"
-thumbs:
-  - "/assets/img/design-system/colors.webp"
-  - "/assets/img/design-system/search-examples.webp"
 facts:
   Company: "Firebird Tours group"
   Period: "2023–2026"

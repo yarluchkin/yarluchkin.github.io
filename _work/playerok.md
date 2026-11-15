@@ -10,10 +10,8 @@ scale: "4M active users"
 role: "Product designer, contract"
 lede: "Playerok is a marketplace for game items and digital goods with about 4 million active users, more than 150,000 sellers and over 10 million transactions. I design the pages people see first: the home page, game pages, events, prize draws and the page that brings in new sellers."
 cover: "/assets/img/playerok/gta-home.webp"
+preview: "/assets/img/playerok/preview.webp"
 cover_alt: "Playerok home page during the GTA VI pre-order event"
-thumbs:
-  - "/assets/img/playerok/gta-game.webp"
-  - "/assets/img/playerok/seller.webp"
 facts:
   Company: "Playerok"
   Period: "Feb 2026 – now"

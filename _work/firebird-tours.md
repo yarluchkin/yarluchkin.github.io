@@ -10,10 +10,8 @@ scale: "Led 2 junior designers"
 role: "Product designer, then design lead"
 lede: "Firebird Tours has run private and small group tours around the world since 2007, and its sister product Triptile lets travellers build a trip themselves. I joined as a product designer and became the design lead of the product, responsible for every side of it: travellers, travel specialists, partners and admins."
 cover: "/assets/img/firebird/cover.webp"
+preview: "/assets/img/firebird/preview.webp"
 cover_alt: "Firebird Tours website: home, destinations and tour pages"
-thumbs:
-  - "/assets/img/firebird/france-landing.webp"
-  - "/assets/img/firebird/agora.webp"
 facts:
   Company: "Firebird Tours, Triptile"
   Period: "Oct 2023 – Feb 2026"

@@ -11,8 +11,6 @@ role: "Research, UX and UI"
 lede: "A test assignment for Flipper Devices: a compact desktop app that turns smart lamps on and off, sets their mood and runs them on a schedule, without taking over the screen."
 cover: "/assets/img/helios/screens.webp"
 cover_alt: "HELIOS screens in the dark theme: lamp control, devices, modes, schedule and settings"
-thumbs:
-  - "/assets/img/helios/desktop.webp"
 facts:
   Type: "Test assignment"
   Company: "Flipper Devices"
@@ -36,4 +34,4 @@ The app lives in the corner of the desktop, next to the system tray. It has to b
 
 ![The same six screens in the light theme]({{ '/assets/img/helios/light.webp' | relative_url }})
 
-![The widget on a Windows desktop, above the taskbar]({{ '/assets/img/helios/desktop.webp' | relative_url }})
+![The widget in the corner of a Windows desktop, next to the system tray]({{ '/assets/img/helios/desktop.webp' | relative_url }})

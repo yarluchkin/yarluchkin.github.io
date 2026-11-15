@@ -34,7 +34,6 @@ en:
   copied: "Copied"
   zoom: "Enlarged image"
   close: "Close"
-  slides: "of"
   not_found: "This train doesn’t stop here."
   back_home: "Back to all work"
   games:
@@ -114,7 +113,6 @@ ja:
   copied: "コピーしました"
   zoom: "拡大画像"
   close: "閉じる"
-  slides: "/"
   not_found: "この駅には停車しません。"
   back_home: "実績一覧へ戻る"
   games:
