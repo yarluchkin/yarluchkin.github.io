@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@300..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500&display=block">
+<style>
+  :root { --paper:#eff0ec; --plate:#e4e6e0; --ink:#121315; --ink-2:#5b5e5c; --signal:#ff6a13;
+    --sans:"Geologica","IBM Plex Sans JP",sans-serif; --mono:"IBM Plex Mono","IBM Plex Sans JP",monospace; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { width:1200px; height:630px; overflow:hidden; }
+  body { background:var(--paper); color:var(--ink); font-family:var(--sans); -webkit-font-smoothing:antialiased; position:relative; }
+  .mark { width:34px; height:34px; border-radius:8px; background:var(--ink); position:relative; flex:none; }
+  .mark::after { content:""; position:absolute; width:9px; height:9px; border-radius:50%; background:var(--signal); right:7px; top:7px; }
+  .who { display:flex; align-items:center; gap:14px; }
+  .who b { font-weight:500; font-size:24px; letter-spacing:-.01em; }
+  .who span { font:500 15px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--ink-2); margin-left:6px; }
+  .lang-ja .who span { letter-spacing:.02em; }
+
+  /* Home */
+  .home { position:absolute; inset:0; padding:60px 64px; display:flex; flex-direction:column; }
+  .home h1 { margin-top:auto; font-weight:400; font-size:50px; line-height:1.1; letter-spacing:-.025em; max-width:610px; text-wrap:balance; }
+  .lang-ja .home h1 { word-break:auto-phrase; font-size:42px; line-height:1.35; letter-spacing:0; max-width:600px; font-weight:500; }
+  .home .url { margin-top:36px; font:400 17px var(--mono); color:var(--ink-2); display:flex; align-items:center; gap:10px; }
+  .home .url::before { content:""; width:10px; height:10px; background:var(--signal); border-radius:2px; }
+  .tower { position:absolute; left:720px; bottom:0; width:520px; height:630px; }
+  .tower img { position:absolute; width:440px; aspect-ratio:2/1; object-fit:cover; object-position:top; border-radius:8px;
+    box-shadow:0 0 0 1px rgb(0 0 0 / .08), 0 14px 34px rgb(0 0 0 / .14); background:#fff; }
+
+  /* Case */
+  .case { position:absolute; inset:0; background:var(--plate); }
+  .case .who { position:absolute; left:64px; top:38px; }
+  .case .name { position:absolute; right:64px; top:40px; font-weight:400; font-size:24px; letter-spacing:-.01em; }
+  .case .frame { position:absolute; left:64px; right:64px; top:104px; bottom:0; overflow:hidden; border-radius:10px 10px 0 0;
+    box-shadow:0 0 0 1px rgb(0 0 0 / .08), 0 14px 40px rgb(0 0 0 / .12); }
+  .case .frame img { width:100%; height:100%; object-fit:cover; object-position:top; display:block; }
+</style>
+</head>
+<body>
+<script>
+  const q = new URLSearchParams(location.search);
+  const mode = q.get('mode') || 'home', lang = q.get('lang') || 'en';
+  document.body.className = 'lang-' + lang; document.documentElement.lang = lang;
+  const T = {
+    en: { name:'Yar Luchkin', role:'Product designer',
+      h:'I design marketplaces and travel products used by millions of people, and design systems for them.' },
+    ja: { name:'ヤル・ルチキン', role:'プロダクトデザイナー',
+      h:'数百万人が使うマーケットプレイスや旅行サービスと、そのためのデザインシステムをつくっています。' }
+  }[lang];
+  const who = `<div class="who"><i class="mark"></i><b>${T.name}</b><span>${T.role}</span></div>`;
+  if (mode === 'home') {
+    const shots = [
+      ['/assets/img/design-system/preview.webp', 150, 455, -2],
+      ['/assets/img/rail-ninja/preview.webp', 40, 250, 3],
+      ['/assets/img/firebird/preview.webp', 110, 40, -4],
+    ];
+    document.body.innerHTML = `<div class="home">${who}<h1>${T.h}</h1><p class="url">yarluchkin.github.io</p></div>
+      <div class="tower">${shots.map(([s,x,y,r]) => `<img src="${s}" style="left:${x}px;top:${y}px;rotate:${r}deg">`).join('')}</div>`;
+  } else {
+    const fit = q.get('fit') || 'cover', pos = q.get('pos') || 'top', bg = q.get('bg'); const zoom = q.get("zoom");
+    document.body.innerHTML = `<div class="case">${who}<p class="name">${q.get('name')}</p>
+      <div class="frame" style="${bg ? 'background:' + bg : ''}"><img src="${q.get('img')}" style="${zoom ? `position:absolute;left:50%;top:50%;translate:-50% -50%;width:${zoom}%;height:auto` : `object-fit:${fit};object-position:${pos}`}"></div></div>`;
+  }
+</script>
+</body>
+</html>

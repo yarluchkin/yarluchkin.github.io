@@ -16,7 +16,24 @@
   <meta property="og:title" content="{{ page_title | escape }}">
   <meta property="og:description" content="{{ page_description | escape }}">
   <meta property="og:type" content="website">
-  {% if page.cover %}<meta property="og:image" content="{{ page.cover | absolute_url }}">{% endif %}
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ p.name }}">
+  <meta property="og:locale" content="{% if lang == 'ja' %}ja_JP{% else %}en_US{% endif %}">
+  {% comment %} Link preview card, 1200×630: assets/img/og/<case>[-ja].jpg, made with tools/og.html. A case without a card falls back to its preview. {% endcomment %}
+  {% assign og = "/assets/img/og/home-" | append: lang | append: ".jpg" %}
+  {% assign og_sized = true %}
+  {% if page.collection == "work" or page.collection == "work_ja" %}
+    {% assign og_try = "/assets/img/og/" | append: page.slug %}
+    {% if lang == "ja" %}{% assign og_try = og_try | append: "-ja" %}{% endif %}
+    {% assign og_try = og_try | append: ".jpg" %}
+    {% assign og_file = site.static_files | where: "path", og_try | first %}
+    {% if og_file %}{% assign og = og_try %}{% else %}{% assign og_en = site.work | where: "slug", page.slug | first %}{% assign og = og_en.preview | default: og_en.cover %}{% assign og_sized = false %}{% endif %}
+  {% endif %}
+  <meta property="og:image" content="{{ og | absolute_url }}">
+  {% if og_sized %}<meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">{% endif %}
+  <meta property="og:image:alt" content="{{ page_title | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
   {% unless page.no_alternate %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">
