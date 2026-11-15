@@ -9,8 +9,8 @@ period: "2025"
 scale: "Concept"
 role: "Idea, research, UX and UI"
 lede: "A self-initiated concept: a Telegram Mini App that teaches people the basics of TON before they lose money to a phishing link."
-cover: "/assets/img/ton-learn/cover.png"
-cover_alt: "TON Learn title slide"
+cover: "/assets/img/ton-learn/cover.webp"
+cover_alt: "TON Learn screens: home with courses in progress, a topic page and a lesson"
 facts:
   Type: "Personal concept"
   Year: "2025"
@@ -33,8 +33,18 @@ Knowledge about TON is spread across chats and docs, and newcomers learn about w
 - **Format.** Chose a Telegram Mini App so learning happens where people already are.
 - **Content structure.** Broke smart contracts, wallets and jettons into short lessons with quizzes.
 - **Motivation.** Designed rewards with TON Society badges for finished courses.
-- **UI.** Built mobile patterns that follow Telegram’s own look.
+- **UI.** Based the interface on Telegram Wallet, so the mini app feels like part of Telegram rather than a website inside it.
 
-![About the project and why it matters]({{ '/assets/img/ton-learn/about.png' | relative_url }})
+## How it works
 
-![Value for the ecosystem]({{ '/assets/img/ton-learn/value.png' | relative_url }})
+![Home: the course in progress comes first]({{ '/assets/img/ton-learn/main.webp' | relative_url }}) ![Topic page: authors, overall progress and the fixed lesson order]({{ '/assets/img/ton-learn/theme.webp' | relative_url }}) ![Lesson: video, lecture notes, then the test]({{ '/assets/img/ton-learn/lesson.webp' | relative_url }})
+
+- **Home.** The course a person has already started is always at the top, with its progress and a Continue link. Search finds a topic, a chapter or an author. The avatar leads to the profile with progress, settings and badges. A short onboarding asks what the person is interested in, such as development, DeFi or memecoins, and the list follows that choice.
+- **Topic page.** Shows the authors, so people can find material by speaker, and the overall progress of the topic. The lesson order never changes, so the path through a topic stays predictable. Each lesson shows how many steps are done, how long it takes and how people reacted to it.
+- **Lesson page.** A lesson is three steps: a video in Telegram’s own player, lecture notes, and a knowledge test. The test unlocks only after the person has gone through the materials. A badge comes only when all lesson tests and the final test of the topic are passed.
+
+## Next steps
+
+- **MVP.** Core courses and a basic knowledge base.
+- **Integration.** Badge rewards together with TON Society.
+- **Growth.** More courses and advanced features.
