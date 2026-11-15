@@ -234,8 +234,8 @@ html:has(dialog[open]) { overflow: hidden; }
 .case__facts div { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .5rem; align-items: baseline; padding: .4rem 0; border-top: 1px solid var(--line); }
 .case__facts dd { font-size: .9375rem; }
 .more { justify-self: start; margin-top: .25rem; }
-/* One preview per case: a real screen set on the same plate, cut off at the bottom edge */
-.shot { display: block; aspect-ratio: 16 / 10; padding: 6% 6% 0; background: var(--plate); overflow: hidden; }
+/* One preview per case: a real 2:1 screen on the same plate, full width so headers and logos stay whole */
+.shot { display: block; aspect-ratio: 2 / 1; padding: 6% 6% 0; background: var(--plate); overflow: hidden; }
 .shot img {
   width: 100%; height: calc(100% + .75rem); object-fit: cover; object-position: top;
   border-radius: 6px 6px 0 0; box-shadow: 0 0 0 1px var(--img-edge), 0 .75rem 2.5rem rgb(0 0 0 / .1);
@@ -416,7 +416,6 @@ html:lang(ja) .label, html:lang(ja) dt, html:lang(ja) .board__head, html:lang(ja
   }
   .pair::-webkit-scrollbar { display: none; }
   .pair > figure { flex: 0 0 86%; scroll-snap-align: start; }
-  .shot { padding: 7% 7% 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
