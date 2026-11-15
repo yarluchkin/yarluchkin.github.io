@@ -15,7 +15,7 @@ en:
   headline: "I design marketplaces and travel products used by millions of people, and the design systems that keep them consistent."
   facts:
     - label: "Now"
-      value: "Playerok, 4M+ users"
+      value: "Playerok, 4M active users"
     - label: "Based"
       value: "Belgrade, Serbia"
     - label: "Focus"
@@ -23,14 +23,15 @@ en:
   stats:
     - value: "5 years"
       label: "in product design, on marketplaces and travel products"
-    - value: "4M+"
-      label: "people use the marketplace I design for now"
+    - value: "4M"
+      label: "active users on the marketplace I design for now"
     - value: "2,000+"
-      label: "components in one design system for four brands"
+      label: "components in one design system for three products"
     - value: "1M+"
-      label: "train tickets a year go through my booking flow"
+      label: "train tickets sold on Rail Ninja in 2023"
   about:
     - "Five years in product design, before that PR and localization for game launches. My background is in advertising and intercultural communication."
+    - "Before moving fully into product, I was deputy director of a Moscow communications agency and led the visual identity and team of Design Factory 2.0, an all-Russian design competition."
     - "Most products I’ve worked on are used by people from many countries, often in a language that isn’t their own. I work in English and keep improving my Japanese."
   about_facts:
     - label: "Languages"
@@ -48,7 +49,7 @@ ja:
   headline: "数百万人が使うマーケットプレイスや旅行サービスと、その一貫性を支えるデザインシステムをつくっています。"
   facts:
     - label: "現在"
-      value: "Playerok（ユーザー400万人以上）"
+      value: "Playerok（アクティブユーザー約400万人）"
     - label: "拠点"
       value: "セルビア・ベオグラード"
     - label: "専門"
@@ -56,14 +57,15 @@ ja:
   stats:
     - value: "5年"
       label: "マーケットプレイスと旅行サービスのプロダクトデザイン"
-    - value: "400万人以上"
-      label: "現在担当しているマーケットプレイスのユーザー数"
+    - value: "約400万人"
+      label: "現在担当しているマーケットプレイスのアクティブユーザー数"
     - value: "2,000以上"
-      label: "4ブランド共通のデザインシステムのコンポーネント数"
+      label: "3つのプロダクト共通のデザインシステムのコンポーネント数"
     - value: "100万枚以上"
-      label: "私が設計した予約フローで年間に販売される鉄道チケット"
+      label: "2023年にRail Ninjaで販売された鉄道チケット"
   about:
     - "プロダクトデザイナーとして5年。それ以前は、ゲームのローンチに向けたPRとローカライズを担当していました。大学では広告・PRと異文化コミュニケーションを学びました。"
+    - "プロダクトに専念する前は、モスクワのコミュニケーションエージェンシーで副代表を務め、全ロシア規模のデザインコンペ「Design Factory 2.0」のビジュアルとチームを統括しました。"
     - "これまで手がけたプロダクトの多くは、さまざまな国の人が母語ではない言語で使うものです。仕事は英語で行い、日本語の学習を続けています。"
   about_facts:
     - label: "言語"

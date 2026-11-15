@@ -1,47 +1,50 @@
 ---
-title: "Rail Ninja: booking train tickets across countries"
+title: "Rail Ninja: train tickets in 50 countries"
 name: "Rail Ninja"
 kind: product
 order: 3
 state: shipped
-work: "Search, timetables, seats, checkout"
+work: "Search, results, seats, destination pages, landing sites"
 period: "2023–2026"
-scale: "1M+ tickets a year"
+scale: "1M+ tickets in 2023"
 role: "Product designer"
-lede: "I redesigned the booking flow of Rail Ninja, a platform where travellers buy train tickets in many countries from one site."
-cover: "https://ceoofdesign.github.io/assets/img/rail-ninja/cover.webp"
-cover_alt: "Rail Ninja booking app on a phone inside a train"
+lede: "Rail Ninja sells train tickets in 50 countries from one site and one app. The product had its own design lead, and my part was search, results, seat choice and destination pages, the components behind them, the landing sites that bring travellers from search, and bringing Rail Ninja onto the shared design system."
+cover: "/assets/img/rail-ninja/cover.webp"
+cover_alt: "Rail Ninja home page and mobile search"
 thumbs:
-  - "https://ceoofdesign.github.io/assets/img/rail-ninja/seats.webp"
-  - "https://ceoofdesign.github.io/assets/img/rail-ninja/route.webp"
+  - "/assets/img/rail-ninja/results.webp"
+  - "/assets/img/rail-ninja/route.webp"
 facts:
   Company: "Rail Ninja (Firebird Tours group)"
-  Period: "2023–2026"
+  Period: "Oct 2023 – Feb 2026"
   My role: "Product designer"
-  Platforms: "Web, mobile web"
+  Platforms: "Website, iOS and Android app, landing sites"
 outcomes:
-  - "Clearer steps and fewer decisions per screen in the checkout."
-  - "Faster feature delivery thanks to reusable components."
-  - "The platform handles over 1M tickets a year on this flow."
+  - "Rail Ninja sold over 1 million tickets in 2023, and the number has kept growing."
+  - "My components and patterns became part of the shared design system, on both the website and the app."
+  - "Marketers got one approach for posts, banners and video instead of starting each from scratch."
 ---
 
 ## Context
 
-Rail Ninja sells train tickets from many national carriers. Every carrier has its own data, classes and rules, and users are travellers who often book in a language that is not their own.
-
-## Problem
-
-Multi-city routes, unfamiliar fare classes and a long checkout put a lot of load on users exactly where they were about to pay.
+Travellers often book trains in a country and a language that aren’t their own. Every carrier has its own classes, rules and data, and the interface has to make them look like one product. Today rail.ninja gets about 1.3 million visits a month, more than a third of them from the United States (Semrush, October 2026).
 
 ## What I did
 
-- **Booking flow.** Redesigned search, timetables, multi-city routing, seat selection and checkout.
-- **Testing.** Prepared A/B tests with the product team and checked hypotheses before full rollout.
-- **Route pages.** Designed landing pages for popular routes that work as an entry point from search engines.
-- **System.** Moved the product onto the shared design system so web and mobile behave the same way.
+- **Search and results.** Designed the search and the results, where classes, seats and prices for every train sit on one screen.
+- **Seat choice.** Worked on how travellers pick their seats in the train.
+- **Destination pages.** Pages for routes, stations and countries.
+- **Landing sites.** Designed sites such as [japantrains.com](https://www.japantrains.com/), part of a network of more than 30 country rail sites that bring travellers from search engines to Rail Ninja.
+- **Components.** Date pickers, the traveller selector, maps and other building blocks, on the website and in the app.
+- **Design system.** Prepared components and patterns for Rail Ninja, agreed them with the product team and added them to the documentation.
+- **Marketing.** Helped with social posts, banners and videos so marketers had one consistent visual approach.
 
-![Home page and the mobile search](https://ceoofdesign.github.io/assets/img/rail-ninja/search.webp)
+![Results: classes, seats and prices for every train on one screen]({{ '/assets/img/rail-ninja/results.webp' | relative_url }})
 
-![Timetable with classes, seats and prices on one screen](https://ceoofdesign.github.io/assets/img/rail-ninja/seats.webp)
+![Route page: Lisbon to Albufeira]({{ '/assets/img/rail-ninja/route.webp' | relative_url }}) ![Route page: trains on the route, travel times and popular routes]({{ '/assets/img/rail-ninja/route-detail.webp' | relative_url }})
 
-![Route landing page: Lisbon to Albufeira](https://ceoofdesign.github.io/assets/img/rail-ninja/route.webp) ![Route page with trains, travel time and popular routes](https://ceoofdesign.github.io/assets/img/rail-ninja/route-detail.webp)
+![Social posts and banners in one visual language]({{ '/assets/img/rail-ninja/posts.webp' | relative_url }})
+
+![Post: the Jacobite Express in Scotland]({{ '/assets/img/rail-ninja/post-jacobite.webp' | relative_url }}) ![Post: arriving at Milano Centrale]({{ '/assets/img/rail-ninja/post-milano.webp' | relative_url }})
+
+![Post: tourist information with times and the best seats for the view]({{ '/assets/img/rail-ninja/post-tourist-info.webp' | relative_url }}) ![Post: Spanish phrases for travellers]({{ '/assets/img/rail-ninja/post-phrases.webp' | relative_url }})

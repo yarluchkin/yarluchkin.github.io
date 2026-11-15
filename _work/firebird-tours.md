@@ -1,48 +1,54 @@
 ---
-title: "Firebird Tours: tours for travellers and a tool for agents"
+title: "Firebird Tours: tours, trip planning and a partner portal"
 name: "Firebird Tours"
 kind: product
 order: 5
 state: shipped
-work: "Website, apps, agent tool"
+work: "Website, app, trip builder, partner portal, research"
 period: "2023–2026"
-scale: "Web, iOS, Android, B2B"
-role: "Product designer, led design for the tours line"
-lede: "I designed the consumer side of Firebird Tours and the internal tool its travel agents use to plan and manage trips."
-cover: "https://ceoofdesign.github.io/assets/img/firebird/cover.webp"
-cover_alt: "Firebird Tours website: home page, tour pages and the client area"
+scale: "Led 2 junior designers"
+role: "Product designer, then design lead"
+lede: "Firebird Tours has run private and small group tours around the world since 2007, and its sister product Triptile lets travellers build a trip themselves. I joined as a product designer and became the design lead of the product, responsible for every side of it: travellers, travel specialists, partners and admins."
+cover: "/assets/img/firebird/cover.webp"
+cover_alt: "Firebird Tours website: home, destinations and tour pages"
 thumbs:
-  - "https://ceoofdesign.github.io/assets/img/firebird/trips.webp"
-  - "https://ceoofdesign.github.io/assets/img/firebird/agora.webp"
+  - "/assets/img/firebird/france-landing.webp"
+  - "/assets/img/firebird/agora.webp"
 facts:
-  Company: "Firebird Tours"
-  Period: "2023–2026"
-  My role: "Product designer, led design for the tours line"
-  Platforms: "Web, iOS, Android, internal B2B tool"
+  Company: "Firebird Tours, Triptile"
+  Period: "Oct 2023 – Feb 2026"
+  My role: "Product designer, then design lead"
+  Platforms: "Website, iOS and Android app, trip builder, partner portal, admin"
 outcomes:
-  - "One visual language across the website, apps and internal tool."
-  - "Faster agent workflows in AGORA."
-  - "Shorter development cycles for new features thanks to the shared system."
+  - "The product went through several rounds of modernisation while I was there. Many of my patterns and pages are still live."
+  - "The travel specialists got a workspace built around their real routine, with everything they need on one screen."
 ---
 
 ## Context
 
-Firebird Tours sells guided and custom tours, mostly to travellers from abroad. Agents build itineraries for clients in an internal tool called AGORA.
-
-## Problem
-
-Two audiences, one product team. Customers needed a clearer way to find and book a trip; agents needed to handle many trips and clients without switching between tools.
+One product serves four kinds of users at once. Travellers browse more than 500 tours and book. Travel specialists plan trips with them. Partners run the tours on the ground and pick up work in AGORA, the partner portal: they see new offers, place requests and track their orders. Admins keep it all running. New features often went live on Triptile first, the group’s online trip builder, and then moved to Firebird Tours.
 
 ## What I did
 
-- **Consumer experience.** Redesigned the main journeys on the website and the mobile apps: discovery, tour pages and the client’s trip area.
-- **Agent tool.** Designed new screens in AGORA for managing clients, bookings and schedules.
-- **Leading the line.** Took tasks from business analysts, split them between me and a junior designer, and reviewed the work.
-- **Hotel booking.** Designed a new hotel booking service end to end with analysts and engineers.
-- **CEO requests.** Prototyped new product ideas on direct requests from the CEO.
+- **Flows and pages.** Reworked the main journeys and pages for every type of user, from the tour catalogue to the traveller’s trip area.
+- **Itinerary builder.** The hardest part of the product: a traveller puts together a dream trip with tickets, hotels and places in one plan.
+- **AI assistant.** Designed how a traveller talks to an AI assistant that collects their wishes and builds the trip plan from them.
+- **Destination landings.** Pages for each destination that let a visitor choose how to travel: work with an expert, pick a popular trip, build the trip themselves or describe it to the AI. I came up with the layout and its states.
+- **Event landings.** Pages for big events, such as a landing for the Paris 2024 Olympics with the schedule of games, the regions and ready trips.
+- **Research.** Held calls with users and our travel specialists and walked through the scenarios together.
+- **Leading the team.** As design lead I had two junior designers: I split the work, reviewed it and handed it to development. I also ran design reviews before major releases.
+- **System.** Owned every component and pattern the product used in the shared design system and presented them to analysts, managers, developers and designers.
 
-![Home page with tour search and destinations](https://ceoofdesign.github.io/assets/img/firebird/home.webp)
+## What research changed
 
-![Client area with booked trips](https://ceoofdesign.github.io/assets/img/firebird/trips.webp) ![Trips and tour style quiz in the mobile app](https://ceoofdesign.github.io/assets/img/firebird/mobile.webp)
+The specialists’ interface was overloaded and dated, so I turned it into a minimal one and took it to them to check. It turned out they needed to see everything in one place instead of digging through dropdowns. I rebuilt it around how they actually work.
 
-![AGORA: offers, orders, schedule and payouts for a guide](https://ceoofdesign.github.io/assets/img/firebird/agora.webp)
+![Destination landing for France: four ways to start a trip]({{ '/assets/img/firebird/france-landing.webp' | relative_url }})
+
+![Home page: search for a tour or start planning your own trip]({{ '/assets/img/firebird/home.webp' | relative_url }})
+
+![My trips: the traveller’s booked and planned trips]({{ '/assets/img/firebird/trips.webp' | relative_url }}) ![Mobile app: trips and a quiz that picks the travel style]({{ '/assets/img/firebird/mobile.webp' | relative_url }})
+
+![AGORA, the partner portal: new offers, orders, calendar and payouts]({{ '/assets/img/firebird/agora.webp' | relative_url }})
+
+![Firebird and Triptile ads: the app and the online trip builder]({{ '/assets/img/firebird/ads.webp' | relative_url }})
