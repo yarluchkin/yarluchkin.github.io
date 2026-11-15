@@ -54,7 +54,7 @@ There was no shared base at all. Every mockup was drawn from scratch, and develo
 
 ![Theme tokens: one palette structure with accents for each brand]({{ '/assets/img/design-system/colors.webp' | relative_url }})
 
-![Type styles for desktop, mobile and app, named the same way on every platform]({{ '/assets/img/design-system/typography.webp' | relative_url }})
+![Type styles for desktop and mobile. The app uses the same names]({{ '/assets/img/design-system/typography.webp' | relative_url }})
 
 ![Buttons: four styles, five sizes, every state including loading]({{ '/assets/img/design-system/buttons.webp' | relative_url }})
 

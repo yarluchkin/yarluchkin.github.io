@@ -47,7 +47,7 @@ outcome_note: "時間の短縮はチーム内の推定値です。"
 
 ![テーマトークン：共通のパレット構成と、ブランドごとのアクセントカラー]({{ '/assets/img/design-system/colors.webp' | relative_url }})
 
-![デスクトップ、モバイル、アプリ共通の命名を持つテキストスタイル]({{ '/assets/img/design-system/typography.webp' | relative_url }})
+![デスクトップとモバイルのテキストスタイル。アプリでも同じ名前を使います]({{ '/assets/img/design-system/typography.webp' | relative_url }})
 
 ![ボタン：4つのスタイル、5つのサイズ、ローディングを含むすべての状態]({{ '/assets/img/design-system/buttons.webp' | relative_url }})
 
