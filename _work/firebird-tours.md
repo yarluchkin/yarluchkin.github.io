@@ -41,6 +41,8 @@ One product serves four kinds of users at once. Travellers browse more than 500 
 
 The specialists’ interface was overloaded and dated, so I turned it into a minimal one and took it to them to check. It turned out they needed to see everything in one place instead of digging through dropdowns. I rebuilt it around how they actually work.
 
+![Example workflow: how the specialist workspace changed, simplified]({{ '/assets/img/firebird/workspace.webp' | relative_url }})
+
 ![Destination landing for France: four ways to start a trip]({{ '/assets/img/firebird/france-landing.webp' | relative_url }})
 
 ![Home page: search for a tour or start planning your own trip]({{ '/assets/img/firebird/home.webp' | relative_url }})

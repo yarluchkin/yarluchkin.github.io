@@ -20,8 +20,8 @@ en:
     - label: "Focus"
       value: "Design systems, booking, marketplaces"
   stats:
-    - value: "5 years"
-      label: "in product design, on marketplaces and travel products"
+    - value: "7 years"
+      label: "in design, from agency work to product teams at marketplaces and travel companies"
     - value: "4M"
       label: "active users on the marketplace I design for now"
     - value: "2,000+"
@@ -29,8 +29,8 @@ en:
     - value: "1M+"
       label: "train tickets sold on Rail Ninja in 2023"
   about:
-    - "Five years in product design, before that PR and localization for game launches. My background is in advertising and intercultural communication."
-    - "Before moving fully into product, I was deputy director of a Moscow communications agency and led the visual identity and team of Design Factory 2.0, an all-Russian design competition."
+    - "Seven years in design. I started at a Moscow communications agency while still at university, grew to deputy director there and led the visual identity and team of Design Factory 2.0, an all-Russian design competition. Since then I’ve worked on product teams at a marketplace for gamers and an international travel group."
+    - "My background is in advertising and intercultural communication, and I retrained in design at the British Higher School of Art and Design."
     - "Most products I’ve worked on are used by people from many countries, often in a language that isn’t their own. I work in English and keep improving my Japanese."
   about_facts:
     - label: "Languages"
@@ -54,8 +54,8 @@ ja:
     - label: "専門"
       value: "デザインシステム、予約フロー、マーケットプレイス"
   stats:
-    - value: "5年"
-      label: "マーケットプレイスと旅行サービスのプロダクトデザイン"
+    - value: "7年"
+      label: "デザインの経験。エージェンシーから、マーケットプレイスや旅行サービスのプロダクトチームまで"
     - value: "約400万人"
       label: "現在担当しているマーケットプレイスのアクティブユーザー数"
     - value: "2,000以上"
@@ -63,8 +63,8 @@ ja:
     - value: "100万枚以上"
       label: "2023年にRail Ninjaで販売された鉄道チケット"
   about:
-    - "プロダクトデザイナーとして5年。それ以前は、ゲームのローンチに向けたPRとローカライズを担当していました。大学では広告・PRと異文化コミュニケーションを学びました。"
-    - "プロダクトに専念する前は、モスクワのコミュニケーションエージェンシーで副代表を務め、全ロシア規模のデザインコンペ「Design Factory 2.0」のビジュアルとチームを統括しました。"
+    - "デザインの経験は7年です。大学在学中にモスクワのコミュニケーションエージェンシーで働き始め、副代表まで務めました。全ロシア規模のデザインコンペ「Design Factory 2.0」ではビジュアルとチームを統括しました。その後は、ゲーマー向けマーケットプレイスと国際的な旅行グループのプロダクトチームで働いています。"
+    - "大学では広告・PRと異文化コミュニケーションを学び、British Higher School of Art and Designでデザインを学び直しました。"
     - "これまで手がけたプロダクトの多くは、さまざまな国の人が母語ではない言語で使うものです。仕事は英語で行い、日本語の学習を続けています。"
   about_facts:
     - label: "言語"

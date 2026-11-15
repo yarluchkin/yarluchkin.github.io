@@ -42,6 +42,8 @@ A hotel search has to show a lot at once: price, location, rating, room types an
 - **Inside Rail Ninja.** Built hotels into the train journey, so a traveller can book a stay right after buying a ticket.
 - **Ownership.** I had no team under me and took responsibility for every design decision.
 
+![Example workflow: two ways into a hotel booking, simplified]({{ '/assets/img/travel-ninja/flow.webp' | relative_url }})
+
 ![Home page: search and popular destinations]({{ '/assets/img/travel-ninja/home.webp' | relative_url }})
 
 ![Results for Tokyo: map, filters and the total price per stay]({{ '/assets/img/travel-ninja/search.webp' | relative_url }})

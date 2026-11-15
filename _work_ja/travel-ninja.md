@@ -37,6 +37,8 @@ Rail Ninjaは50か国の鉄道チケットを販売しています。Expediaと�
 - **Rail Ninjaとの連携。** 鉄道チケットの購入直後にホテルを予約できる流れを作りました。
 - **責任範囲。** チームはおらず、すべてのデザイン判断に責任を持ちました。
 
+![ワークフローの例：ホテル予約への2つの入り口（簡略版）]({{ '/assets/img/travel-ninja/flow-ja.webp' | relative_url }})
+
 ![トップページ：検索と人気の目的地]({{ '/assets/img/travel-ninja/home.webp' | relative_url }})
 
 ![東京の検索結果：地図、フィルター、滞在全体の合計金額]({{ '/assets/img/travel-ninja/search.webp' | relative_url }})

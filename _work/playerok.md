@@ -25,7 +25,7 @@ outcome_note: "Platform figures are from Playerok’s company page. I don’t ha
 
 ## Context
 
-Playerok sells items, accounts, currency and subscriptions for more than 1,200 games and apps. The home page has to work for very different people: a Roblox player and a PUBG player are two separate audiences, and one page has to suit both. Sellers, in turn, need a reason to list here rather than somewhere else.
+Playerok sells items, accounts, currency and subscriptions for more than 1,200 games and apps. The home page has to work for very different people: a Roblox player and a PUBG player are two separate audiences, and one page has to suit both. Sellers, in turn, need a reason to list here rather than somewhere else. The site is in Russian, so the screens below are too.
 
 ## What I did
 

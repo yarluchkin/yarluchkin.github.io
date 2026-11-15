@@ -36,6 +36,8 @@ outcomes:
 
 旅行スペシャリスト向けの画面は情報が多く古かったため、ミニマルなデザインに作り直して、彼らに確認してもらいました。すると、ドロップダウンを開いて探すのではなく、すべてを1か所で見たいことがわかりました。そこで、実際の業務の流れに合わせて作り直しました。
 
+![ワークフローの例：スペシャリストの作業画面の変化（簡略版）]({{ '/assets/img/firebird/workspace-ja.webp' | relative_url }})
+
 ![フランス向けのランディング：旅の始め方を4つから選べる]({{ '/assets/img/firebird/france-landing.webp' | relative_url }})
 
 ![トップページ：ツアーを探す、または自分で旅を計画する]({{ '/assets/img/firebird/home.webp' | relative_url }})

@@ -13,7 +13,7 @@ en:
   lang_label: "Language"
   hero_write: "Write to me"
   hero_work: "See the work"
-  cols: ["No.", "Product", "Work", "Status", "Period", "Scale"]
+  cols: ["No.", "Product", "Work", "Status", "Period", "Highlight"]
   state:
     now: "Now"
     shipped: "Shipped"
@@ -21,7 +21,7 @@ en:
   selected: "Selected work"
   role: "Role"
   period: "Period"
-  scale: "Scale"
+  scale: "Highlight"
   read: "Read the case"
   concepts: "Side projects and concepts"
   notes: "Talks and writing"
@@ -92,7 +92,7 @@ ja:
   lang_label: "言語"
   hero_write: "連絡する"
   hero_work: "実績を見る"
-  cols: ["No.", "プロダクト", "担当", "ステータス", "期間", "規模"]
+  cols: ["No.", "プロダクト", "担当", "ステータス", "期間", "ポイント"]
   state:
     now: "担当中"
     shipped: "リリース済み"
@@ -100,7 +100,7 @@ ja:
   selected: "主な実績"
   role: "役割"
   period: "期間"
-  scale: "規模"
+  scale: "ポイント"
   read: "詳しく見る"
   concepts: "個人プロジェクト"
   notes: "登壇・執筆"
