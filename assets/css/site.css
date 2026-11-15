@@ -6,8 +6,8 @@
   --ink-2: #5b5e5c;
   --line: #cfd2cb;
   --field: #878a86;
-  --signal: #e03a0b;
-  --signal-text: #b92d05;
+  --signal: #ec5b10;
+  --signal-text: #ad4300;
   --img-edge: rgb(0 0 0 / .1);
   --gutter: clamp(16px, 2.6vw, 40px);
   --sans: "Geologica", "IBM Plex Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -22,8 +22,8 @@
   --ink-2: #9b9e9b;
   --line: #2e3133;
   --field: #66696a;
-  --signal: #ff5b2b;
-  --signal-text: #ff7a52;
+  --signal: #ff6d1f;
+  --signal-text: #ff8a45;
   --img-edge: rgb(255 255 255 / .1);
   color-scheme: dark;
 }
@@ -35,8 +35,8 @@
     --ink-2: #9b9e9b;
     --line: #2e3133;
     --field: #66696a;
-    --signal: #ff5b2b;
-    --signal-text: #ff7a52;
+    --signal: #ff6d1f;
+    --signal-text: #ff8a45;
     --img-edge: rgb(255 255 255 / .1);
     color-scheme: dark;
   }
@@ -101,8 +101,6 @@ button { transition: scale .15s ease-out; }
 .hero__facts dd { font-size: .9375rem; }
 .hero__sub { margin-top: 1rem; font-size: 1.25rem; }
 .hero__cta { display: grid; gap: .9rem; justify-items: start; margin-top: clamp(1.5rem, 4vh, 2.5rem); }
-.hero__open { display: flex; align-items: center; gap: .5rem; font: 400 .75rem/1.4 var(--mono); color: var(--ink-2); }
-.hero__open span { flex: none; width: .5rem; height: .5rem; border-radius: 50%; background: #14ae5c; box-shadow: 0 0 0 3px rgb(20 174 92 / .18); }
 .hero__actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 
 /* Hero with the game: the whole first screen is a canvas, the text sits on top of it on the left */
@@ -269,16 +267,17 @@ html:has(dialog[open]) { overflow: hidden; }
 .about { margin: 0 var(--gutter); padding: 1.25rem 0 clamp(4rem, 10vh, 7rem); border-top: 1px solid var(--ink); }
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem clamp(1rem, 2vw, 2rem); margin-top: 1.25rem; }
 .stat { border-top: 1px solid var(--line); padding-top: .75rem; display: grid; gap: .35rem; align-content: start; }
-.stat__value { font-size: clamp(2rem, 4.4vw, 4rem); font-weight: 300; letter-spacing: -.03em; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat__value { font-size: clamp(2rem, 3.4vw, 3.25rem); font-weight: 300; letter-spacing: -.03em; line-height: 1; font-variant-numeric: tabular-nums; }
 .stat__label { color: var(--ink-2); font-size: .9375rem; max-width: 18em; }
 .about__body { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 2rem clamp(1.5rem, 4vw, 4rem); margin-top: clamp(2.5rem, 6vh, 4rem); }
-.about__text { display: grid; gap: 1rem; font-size: clamp(1.25rem, 2vw, 1.75rem); font-weight: 350; line-height: 1.35; letter-spacing: -.01em; max-width: 30em; }
+.about__text { display: grid; gap: .9rem; align-content: start; font-size: 1.0625rem; line-height: 1.6; max-width: 36em; }
+.about__text p:first-child { font-size: clamp(1.25rem, 1.6vw, 1.5rem); line-height: 1.4; letter-spacing: -.01em; margin-bottom: .35rem; }
 .about__facts div { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1rem; padding: .6rem 0; border-top: 1px solid var(--line); align-items: baseline; }
-html:lang(ja) .stat__value { font-size: clamp(1.75rem, 3.6vw, 3.25rem); letter-spacing: 0; }
+html:lang(ja) .stat__value { font-size: clamp(1.625rem, 2.8vw, 2.75rem); letter-spacing: 0; }
 
 /* Footer */
 .end { padding: 1.25rem var(--gutter) 2rem; border-top: 1px solid var(--ink); }
-.end__mail { display: block; margin-top: .75rem; font-size: clamp(1.5rem, 5.6vw, 5.5rem); font-weight: 300; letter-spacing: -.02em; line-height: 1.1; overflow-wrap: anywhere; transition: color .15s; }
+.end__mail { display: inline-block; margin-top: .75rem; font-size: clamp(1.5rem, 4vw, 3.5rem); font-weight: 300; letter-spacing: -.02em; line-height: 1.1; overflow-wrap: anywhere; transition: color .15s; }
 .end__row { display: flex; flex-wrap: wrap; align-items: baseline; gap: .75rem 1.5rem; margin-top: 1.75rem; }
 .end__kana { margin-inline-start: auto; color: var(--ink-2); }
 
@@ -290,9 +289,9 @@ html:lang(ja) .stat__value { font-size: clamp(1.75rem, 3.6vw, 3.25rem); letter-s
 .cs__facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-top: clamp(1.5rem, 4vh, 2.5rem); padding-top: .75rem; border-top: 1px solid var(--line); }
 .cs__facts dd { font-size: .9375rem; margin-top: .2rem; }
 .cs__cover { padding: 0 var(--gutter); }
-.cs__cover img { width: 100%; max-height: 86vh; object-fit: cover; background: var(--plate); cursor: zoom-in; outline: 1px solid var(--img-edge); outline-offset: -1px; }
+.cs__cover img { width: auto; max-width: 100%; max-height: 80vh; background: var(--plate); cursor: zoom-in; outline: 1px solid var(--img-edge); outline-offset: -1px; }
 .cs__outcome { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); gap: 1rem clamp(1.5rem, 3vw, 3rem); margin: clamp(2.5rem, 6vh, 4.5rem) var(--gutter) 0; padding-top: 1rem; border-top: 1px solid var(--ink); }
-.cs__outcome ul { grid-column: 2; display: grid; gap: .6rem; font-size: clamp(1.25rem, 2.2vw, 2rem); font-weight: 350; line-height: 1.25; letter-spacing: -.01em; }
+.cs__outcome ul { grid-column: 2; display: grid; gap: .75rem; max-width: 40rem; font-size: clamp(1.125rem, 1.5vw, 1.375rem); line-height: 1.4; letter-spacing: -.01em; }
 .cs__note { grid-column: 2; color: var(--ink-2); font-size: .875rem; }
 .cs__body { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); column-gap: clamp(1.5rem, 3vw, 3rem); margin: clamp(2.5rem, 6vh, 4.5rem) var(--gutter) 0; }
 .cs__body > * { grid-column: 2; max-width: 44rem; }
@@ -302,10 +301,12 @@ html:lang(ja) .stat__value { font-size: clamp(1.75rem, 3.6vw, 3.25rem); letter-s
 .cs__body > p, .cs__body > ul { margin-bottom: 2.75rem; font-size: 1.0625rem; }
 .cs__body ul { display: grid; gap: .75rem; }
 .cs__body strong { font-weight: 500; }
-.cs__body > figure, .cs__body > .pair, .cs__body > p:has(> img) { grid-column: 1 / -1; max-width: none; margin-bottom: clamp(1rem, 2vw, 1.75rem); }
-.cs__body img { width: 100%; background: var(--plate); cursor: zoom-in; outline: 1px solid var(--img-edge); outline-offset: -1px; }
+/* Images sit in the text column and never grow past their own pixel size, so they stay sharp */
+.cs__body > figure, .cs__body > .pair, .cs__body > p:has(> img) { max-width: 60rem; margin-bottom: clamp(1.75rem, 3vw, 2.75rem); }
+.cs__body figure { min-width: 0; }
+.cs__body img { width: auto; max-width: 100%; background: var(--plate); cursor: zoom-in; outline: 1px solid var(--img-edge); outline-offset: -1px; }
 .cs__body figcaption { font: 400 .75rem/1.4 var(--mono); color: var(--ink-2); margin-top: .5rem; }
-.pair { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(.5rem, 1vw, 1rem); }
+.pair { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: clamp(.75rem, 1.5vw, 1.25rem); align-items: start; }
 
 .next { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 8fr) auto; gap: 1rem clamp(1.5rem, 3vw, 3rem); align-items: baseline; margin: clamp(3rem, 8vh, 6rem) var(--gutter) 0; padding: 1rem 0 clamp(3rem, 7vh, 5rem); border-top: 1px solid var(--ink); }
 .next__title { font-size: clamp(1.5rem, 3.4vw, 3rem); font-weight: 300; letter-spacing: -.02em; line-height: 1.15; text-wrap: balance; }
@@ -337,7 +338,7 @@ html:lang(ja) .stat__value { font-size: clamp(1.75rem, 3.6vw, 3.25rem); letter-s
 /* Japanese typography */
 :lang(ja) { letter-spacing: .02em; }
 html:lang(ja) body { line-height: 1.8; line-break: strict; }
-:lang(ja) h1, :lang(ja) h2, :lang(ja) .row__name, :lang(ja) .line__title, :lang(ja) .next__title, :lang(ja) .about__text, :lang(ja) .cs__outcome ul, :lang(ja) .stat__value, :lang(ja) .over__title, :lang(ja) .records__title,
+:lang(ja) h1, :lang(ja) h2, :lang(ja) .row__name, :lang(ja) .line__title, :lang(ja) .next__title, :lang(ja) .about__text p:first-child, :lang(ja) .cs__outcome ul, :lang(ja) .stat__value, :lang(ja) .over__title, :lang(ja) .records__title,
 :lang(ja) dd, :lang(ja) .row__scale, :lang(ja) .stat__label, :lang(ja) .case__lede, :lang(ja) .cs__lede, :lang(ja) .line__detail, :lang(ja) .over__cta, :lang(ja) .records__cta p, :lang(ja) .hero__sub {
   letter-spacing: 0;
   font-feature-settings: "palt" 1;
@@ -349,7 +350,8 @@ html:lang(ja) .hero h1 { font-size: clamp(1.5rem, 3.2vw, 3rem); line-height: 1.4
 html:lang(ja) .cs h1 { font-size: clamp(1.625rem, 3.8vw, 3.5rem); line-height: 1.4; font-weight: 400; }
 html:lang(ja) .case h2 { line-height: 1.35; }
 html:lang(ja) .row__name { line-height: 1.45; }
-html:lang(ja) .about__text, html:lang(ja) .cs__outcome ul { font-weight: 400; line-height: 1.7; font-size: clamp(1.125rem, 1.7vw, 1.5rem); }
+html:lang(ja) .about__text { line-height: 1.85; }
+html:lang(ja) .about__text p:first-child, html:lang(ja) .cs__outcome ul { line-height: 1.7; font-size: clamp(1.125rem, 1.4vw, 1.3125rem); }
 html:lang(ja) .cs__lede { line-height: 1.8; }
 html:lang(ja) .cs__body > p, html:lang(ja) .cs__body > ul { line-height: 1.9; max-width: 40em; }
 html:lang(ja) .next__title { line-height: 1.4; font-weight: 400; }

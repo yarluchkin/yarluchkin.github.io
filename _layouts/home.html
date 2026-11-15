@@ -15,7 +15,6 @@ layout: default
       {% for f in p.facts %}<div><dt>{{ f.label }}</dt><dd>{{ f.value }}</dd></div>{% endfor %}
     </dl>
     <div class="hero__cta">
-      <p class="hero__open"><span aria-hidden="true"></span>{{ t.hero_open }}</p>
       <div class="hero__actions">
         <a class="btn btn--main" href="mailto:{{ profile.email }}" data-subject="{{ g.mail_subject | escape }}">{{ t.hero_write }}</a>
         <a class="btn" href="#work">{{ t.hero_work }}</a>
