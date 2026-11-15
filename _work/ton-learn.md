@@ -9,7 +9,7 @@ period: "2025"
 scale: "Concept"
 role: "Idea, research, UX and UI"
 lede: "A self-initiated concept: a Telegram Mini App that teaches people the basics of TON before they lose money to a phishing link."
-cover: "https://framerusercontent.com/images/z6qjIoTX3oU3K5DU6TvPd8UEPsQ.png?scale-down-to=2000"
+cover: "/assets/img/ton-learn/cover.png"
 cover_alt: "TON Learn title slide"
 facts:
   Type: "Personal concept"
@@ -35,6 +35,6 @@ Knowledge about TON is spread across chats and docs, and newcomers learn about w
 - **Motivation.** Designed rewards with TON Society badges for finished courses.
 - **UI.** Built mobile patterns that follow Telegram’s own look.
 
-![About the project and why it matters](https://framerusercontent.com/images/nB0t5UE8o4VBlileQbR05RRyM.png?scale-down-to=2000)
+![About the project and why it matters]({{ '/assets/img/ton-learn/about.png' | relative_url }})
 
-![Value for the ecosystem](https://framerusercontent.com/images/QrNj8ceb6lg3GhZkuPci09V0c8.png?scale-down-to=2000)
+![Value for the ecosystem]({{ '/assets/img/ton-learn/value.png' | relative_url }})

@@ -31,6 +31,6 @@ TONの知識はチャットやドキュメントに散らばっていて、初�
 - **モチベーション。** コースを修了するとTON Societyのバッジがもらえる仕組みをデザインしました。
 - **UI。** Telegram本来の見た目に沿ったモバイルのパターンを作りました。
 
-![プロジェクトの概要と意義](https://framerusercontent.com/images/nB0t5UE8o4VBlileQbR05RRyM.png?scale-down-to=2000)
+![プロジェクトの概要と意義]({{ '/assets/img/ton-learn/about.png' | relative_url }})
 
-![エコシステムにとっての価値](https://framerusercontent.com/images/QrNj8ceb6lg3GhZkuPci09V0c8.png?scale-down-to=2000)
+![エコシステムにとっての価値]({{ '/assets/img/ton-learn/value.png' | relative_url }})
