@@ -1,7 +1,7 @@
 title: "Yar Luchkin, product designer"
 description: "Product designer in Belgrade. Marketplaces, travel products and the design systems behind them."
-url: "https://ceoofdesign.github.io"
-baseurl: "/folio"
+url: "https://yarluchkin.github.io"
+baseurl: ""
 markdown: kramdown
 timezone: Europe/Belgrade
 
