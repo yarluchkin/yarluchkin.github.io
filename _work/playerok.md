@@ -19,8 +19,7 @@ facts:
   Team: "Product manager, developers, design team"
 outcomes:
   - "I designed the GTA VI pre-order event end to end: the home page takeover, the game page and the prize draw with daily tasks."
-  - "Everything shown is live on playerok.com."
-outcome_note: "Platform figures are from Playerok’s company page. I don’t have separate metrics for my changes."
+outcome_note: "Everything shown is live on playerok.com. Platform figures are from Playerok’s company page. I don’t have separate metrics for my changes."
 ---
 
 ## Context
@@ -31,7 +30,7 @@ Playerok sells items, accounts, currency and subscriptions for more than 1,200 g
 
 - **Home page.** I design the home page, which millions of people open.
 - **Game pages.** Category pages for games and apps: a quick purchase block at the top and the full list of offers below.
-- **Events and prize draws.** Pages and campaigns around game releases. The GTA VI pre-order event is mine: the home page takeover, the game page and the prize draw with daily tasks. I briefed the graphic designers who drew its illustrations.
+- **Events and prize draws.** Pages and campaigns around game releases, like the GTA VI pre-order below. I briefed the graphic designers who drew the illustrations.
 - **Seller landing.** The page that turns buyers into sellers. It shows what you can sell across 1,200+ games and apps, how much you keep after the commission, how each deal is protected and how to start.
 - **Visuals.** On event and promo pages the pictures carry as much weight as the layout, so I design both.
 

@@ -34,12 +34,13 @@ A hotel search has to show a lot at once: price, location, rating, room types an
 
 ## What I did
 
-- **Requirements.** Gathered them from the managers, analysts and the CTO and turned them into a product scope that covered Expedia’s rules.
-- **Search and results.** A results list with a map, filters and the total price for the whole stay, so nobody has to do the maths.
-- **Hotel page.** Photos, rating, amenities and location in one view.
-- **Rooms.** Room options side by side: beds, size, view and cancellation rules.
-- **Checkout.** Guest details, payment and a clear price summary on one page.
-- **Inside Rail Ninja.** Added hotels to the train journey, so a traveller can book a stay right after buying a ticket.
+I started with requirements. I gathered them from the managers, analysts and the CTO and turned them into a product scope that covered Expedia’s rules.
+
+People compare many hotels before they pick one, so the results show the total price for the whole stay next to the map and filters. Nobody has to multiply a nightly rate by the number of nights to compare two options. The hotel page keeps photos, rating, amenities and location in one view, and the rooms sit side by side with their beds, size, view and cancellation rules.
+
+Payment is where people get nervous and leave. So checkout keeps guest details, payment and the price summary on one page, and the traveller sees what they are paying for until the last click.
+
+Hotels also became part of the train journey: right after buying a ticket, a traveller can book a stay at the destination.
 
 ![Example workflow: two ways into a hotel booking, simplified]({{ '/assets/img/travel-ninja/flow.webp' | relative_url }})
 

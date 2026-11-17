@@ -27,7 +27,7 @@ The app sits in the corner of the desktop, next to the system tray. It has to op
 ## What I did
 
 - **Research.** Collected references from hardware control apps and widgets and noted what to keep and what to avoid.
-- **Main flow.** A lamp screen with one big power button and a brightness slider. After it come the devices with their connection status, mood modes, a schedule and settings.
+- **Main flow.** Most of the time people open the app to switch a lamp on or off, so the lamp screen is one big power button and a brightness slider. After it come the devices with their connection status, mood modes, a schedule and settings.
 - **Modes.** Warm, cold, energise, calm, wake up, night, focus and romantic, each with its own icon.
 - **Themes.** Every screen exists in dark and light. Both are built on variables, so switching the theme moves nothing in the layout.
 - **On the desktop.** Checked how the widget sits on a real Windows desktop, above the taskbar.
