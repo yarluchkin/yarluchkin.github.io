@@ -16,8 +16,8 @@ layout: default
     </dl>
     <div class="hero__cta">
       <div class="hero__actions">
-        <a class="btn btn--main" href="mailto:{{ profile.email }}" data-subject="{{ g.mail_subject | escape }}">{{ t.hero_write }}</a>
-        <a class="btn" href="#work">{{ t.hero_work }}</a>
+        <a class="btn btn--main" href="mailto:{{ profile.email }}" data-goatcounter-click="cta-write-hero" data-subject="{{ g.mail_subject | escape }}">{{ t.hero_write }}</a>
+        <a class="btn" href="#work" data-goatcounter-click="cta-see-work">{{ t.hero_work }}</a>
       </div>
     </div>
   </div>
@@ -27,7 +27,7 @@ layout: default
       <p class="hud__score"><span class="hud__n" data-hud-n>0</span><span class="hud__label" data-hud-label>{{ g.hint }}</span></p>
       <div class="hud__side">
         <p class="hud__bugs" data-hud-bugs><span aria-hidden="true">{{ g.bugs }}</span><i></i><i></i><i></i></p>
-        <button type="button" class="hud__records" data-records-open><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 11V7h3v4M4.5 11V3h3v8M8 11V5.5h3V11"/></svg>{{ g.records }}</button>
+        <button type="button" class="hud__records" data-goatcounter-click="game-records" data-records-open><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1 11V7h3v4M4.5 11V3h3v8M8 11V5.5h3V11"/></svg>{{ g.records }}</button>
       </div>
     </div>
     <div class="stage__over" data-over hidden>
@@ -54,7 +54,7 @@ layout: default
             <button type="button" class="btn" data-records-open>{{ g.board_all }}</button>
           </div>
         </div>
-        <p class="over__cta"><span data-over-cta>{{ g.cta }}</span> <a class="link" href="mailto:{{ profile.email }}" data-over-mail>{{ g.cta_link }} <span aria-hidden="true">→</span></a></p>
+        <p class="over__cta"><span data-over-cta>{{ g.cta }}</span> <a class="link" href="mailto:{{ profile.email }}" data-goatcounter-click="cta-write-game-over" data-over-mail>{{ g.cta_link }} <span aria-hidden="true">→</span></a></p>
       </div>
     </div>
   </div>
@@ -69,7 +69,7 @@ layout: default
   <p class="records__note" data-records-note></p>
   <div class="records__cta">
     <p>{{ g.cta }}</p>
-    <a class="btn btn--main" href="mailto:{{ profile.email }}" data-records-mail>{{ g.cta_link }} <span aria-hidden="true">→</span></a>
+    <a class="btn btn--main" href="mailto:{{ profile.email }}" data-goatcounter-click="cta-write-records" data-records-mail>{{ g.cta_link }} <span aria-hidden="true">→</span></a>
   </div>
 </dialog>
 

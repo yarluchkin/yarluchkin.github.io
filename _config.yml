@@ -43,6 +43,9 @@ exclude:
 # Показывать переключатель языка. Поставьте false, пока японские тексты не вычитаны.
 ja_published: true
 
+# Код сайта в GoatCounter (статистика посещений без cookies): адрес кабинета https://КОД.goatcounter.com. Пусто — счётчик выключен.
+goatcounter: ""
+
 # Адрес веб-приложения Google Apps Script для общей таблицы рекордов игры (см. tools/leaderboard.gs и README).
 # Таблица: Google Диск → «Tower records», лист Scores. Скрипт: «Tower records board» на script.google.com.
 # Если оставить пусто, рекорды сохраняются только в браузере игрока.

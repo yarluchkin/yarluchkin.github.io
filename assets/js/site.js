@@ -5,6 +5,8 @@
   const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
   const $ = (q, el = document) => el.querySelector(q);
   const $$ = (q, el = document) => [...el.querySelectorAll(q)];
+  // GoatCounter event, if the counter is on (see goatcounter in _config.yml). Never breaks the page.
+  const track = (path, title) => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path, title: title || path, event: true }); } catch (e) { /* not counted */ } };
   const store = {
     get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* not saved */ } },
@@ -72,6 +74,11 @@
     const lang = root.lang || 'en';
     const touch = matchMedia('(hover: none)').matches;
     const canvas = $('canvas', stage);
+    // Count a visitor who starts playing, once per page view
+    let played = false;
+    const firstPlay = () => { if (!played) { played = true; track('game-play', 'Started playing'); } };
+    canvas.addEventListener('pointerdown', firstPlay);
+    canvas.addEventListener('keydown', (e) => { if (e.key === ' ' || e.key === 'Enter') firstPlay(); });
     const text = $('.hero__text', hero);
     const fmt = (s, v = {}) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m));
     const say = (key, v) => {
@@ -223,6 +230,7 @@
       const data = new FormData(ov.form);
       const me = { name: String(data.get('name') || '').trim().slice(0, 40), company: String(data.get('company') || '').trim().slice(0, 60) };
       if (!me.name) { ov.form.elements.name.focus(); return; }
+      track('game-save', me.company ? 'Score saved with a company' : 'Score saved');
       store.set('towerName', me.name);
       store.set('towerCompany', me.company);
       const entry = { name: me.name, company: me.company, score: run.score, seconds: run.seconds, lang };
@@ -246,6 +254,7 @@
       clearTimeout(overTimer);
       run = r;
       if (!r) { ov.box.hidden = true; return; }
+      track('game-over', `Game over, score ${r.score}`);
       overTimer = setTimeout(() => {
         ov.title.textContent = say(r.reason);
         ov.sub.textContent = say('result', { n: r.score, m: r.best }) + (r.newBest && r.score > 0 ? ` · ${say('new_best')}` : '');
