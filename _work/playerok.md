@@ -7,7 +7,7 @@ state: now
 work: "Home, game pages, events, seller landing"
 period: "2026–now"
 scale: "4M active users"
-role: "Product designer, contract"
+role: "Product designer"
 lede: "Playerok is a marketplace for game items and digital goods: about 4 million active users, more than 150,000 sellers and over 10 million transactions. I design the pages people see first. That means the home page, game pages, events and prize draws, plus the page that brings in new sellers."
 cover: "/assets/img/playerok/gta-home.webp"
 preview: "/assets/img/playerok/preview.webp"
@@ -16,10 +16,9 @@ facts:
   Company: "Playerok"
   Period: "Feb 2026 – now"
   My role: "Product designer, customer-facing side"
-  Team: "Product manager, developers, design team"
 outcomes:
   - "I designed the GTA VI pre-order event end to end: the home page takeover, the game page and the prize draw with daily tasks."
-outcome_note: "Everything shown is live on playerok.com. Platform figures are from Playerok’s company page. I don’t have separate metrics for my changes."
+outcome_note: "Everything shown was published on playerok.com. Platform figures are from Playerok’s company page. I don’t have separate metrics for my changes."
 ---
 
 ## Context

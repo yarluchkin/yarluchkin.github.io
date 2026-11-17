@@ -1,5 +1,15 @@
 # Выступления, статьи и исследования. Новые записи добавляйте сверху.
 # Поля с _ja показываются в японской версии; если их нет, берётся английский текст.
+- type: "Event"
+  type_ja: "イベント"
+  title: "New Year designers’ networking event"
+  title_ja: "新年のデザイナー交流会"
+  detail: "Galary Design, Tokyo. Online. Co-hosted and prepared the icebreaker games, one of them in Figma."
+  detail_ja: "Galary Design（東京）。オンライン。共同ホストとして、Figmaを使うものを含むアイスブレイクのゲームを準備。"
+  date: "Jan 2026"
+  date_ja: "2026年1月"
+  link: "https://www.meetup.com/galary-ux-ui-design-community/events/312694521/"
+
 - type: "Workshop"
   type_ja: "ワークショップ"
   title: "The first steps towards your design system"
@@ -8,7 +18,7 @@
   detail_ja: "Galary Design（東京）。Figmaを使った実践セッション、参加者11名。"
   date: "Oct 2025"
   date_ja: "2025年10月"
-  link: "https://www.meetup.com/galary-ux-ui-design-community/events/?type=past"
+  link: "https://www.meetup.com/galary-ux-ui-design-community/events/310827771/"
 
 - type: "Talk"
   type_ja: "講演"
@@ -18,7 +28,7 @@
   detail_ja: "Galary Design（東京）。オンライン、英語と一部日本語、申込50名。"
   date: "Sep 2025"
   date_ja: "2025年9月"
-  link: "https://www.meetup.com/galary-ux-ui-design-community/events/?type=past"
+  link: "https://www.meetup.com/galary-ux-ui-design-community/events/310484857/"
 
 - type: "Research"
   type_ja: "研究"
