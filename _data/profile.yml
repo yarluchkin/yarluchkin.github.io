@@ -4,7 +4,7 @@ kana: "ヤル・ルチキン"
 timezone: "Europe/Belgrade"
 email: "yar.luchkin@protonmail.com"
 linkedin: "https://www.linkedin.com/in/yar-luchkin/"
-# Когда появится файл резюме: cv: "/assets/cv.pdf"
+cv: "/assets/cv.pdf"
 
 # Английская версия
 en:
